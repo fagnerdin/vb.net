@@ -25,7 +25,9 @@ End Function
 ''' <param name="TBL">TABLE WITH SCHEMA, LIKE 'schema.table' </param>
 ''' <param name="STR">VALUES OF INSERT</param>
 ''' <param name="HVDTL">HAVE DETAIL OF INSERTATIOS, LIKE 'ON DUPLICATE...'</param>
-''' <remarks>THAT's ALL</remarks>
+''' <param name="myComm">MySQL COMMAND</param>
+''' <param name="myConn">MySQL CONNECTION</param>
+''' <remarks>ENJOY</remarks>
 Sub MysqlAdd(ByVal IfIgnores As String, ByVal TBL As String, ByVal STR As String, ByVal HVDTL As String, ByVal myComm As MySqlCommand, ByVal myConn As MySqlConnection)
     Dim REQUEST As Boolean = True
     Dim strComando As String
