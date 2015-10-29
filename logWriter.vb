@@ -1,5 +1,5 @@
 ''' <summary>
-''' ESCREVE ARQUIVO DE LOG
+''' ESCREVE ARQUIVO DE LOG (Importe System.IO)
 ''' </summary>
 ''' <param name="DATAHORA">dateTime do acontecimento</param>
 ''' <param name="MSG">mensagem de erro</param>
