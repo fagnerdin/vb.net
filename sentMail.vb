@@ -8,13 +8,9 @@ Public Class mailController
 
         Dim olapp As Object
         Dim oitem As Object
-        Dim errmy As Integer = 0
-        Dim DADOS As New DataTable("DADOS")
-        Dim VARDEST As String = ""
+        Dim VARDEST As String = "fagnerdin@no-mail.com;"
         olapp = CreateObject("Outlook.Application")
         oitem = olapp.CreateItem(0)
-
-        VARDEST = "fagnerdin@no-mail.com;"
 
         With oitem
             .Subject = strAssnt & " - " & Environment.MachineName
